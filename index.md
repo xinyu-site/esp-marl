@@ -5,10 +5,8 @@
     <p><span><a href="./pdf/esp.pdf" style="color: white; text-decoration: underline;">[Paper]</a></span>&nbsp;&nbsp;&nbsp;<span><a href="./pdf/esp.pdf" style="color: white; text-decoration: underline;">[Supplementary]</a></span></p>
 </div>
 
-
-
-**Abstract:** Multi-agent reinforcement learning (MARL) has achieved promising results in recent years. However, most existing reinforcement learning methods require a large amount of data for model training. In addition, data-efficient reinforcement learning requires the construction of strong inductive biases, which are ignored in the current MARL approaches. Inspired by the symmetry phenomenon in multi-agent systems, this paper proposes a framework for exploiting prior knowledge by integrating data augmentation and a well-designed consistency loss into the existing MARL methods. In addition, the proposed framework is model-agnostic and can be applied to most of the current MARL algorithms. Experimental tests on multiple challenging tasks demonstrate the effectiveness of the proposed framework. Moreover, the proposed framework is applied to a physical multi-robot testbed to show its superiority.
-
+<h2>Abstract:</h2>
+<p>Multi-agent reinforcement learning (MARL) has achieved promising results in recent years. However, most existing reinforcement learning methods require a large amount of data for model training. In addition, data-efficient reinforcement learning requires the construction of strong inductive biases, which are ignored in the current MARL approaches. Inspired by the symmetry phenomenon in multi-agent systems, this paper proposes a framework for exploiting prior knowledge by integrating data augmentation and a well-designed consistency loss into the existing MARL methods. In addition, the proposed framework is model-agnostic and can be applied to most of the current MARL algorithms. Experimental tests on multiple challenging tasks demonstrate the effectiveness of the proposed framework. Moreover, the proposed framework is applied to a physical multi-robot testbed to show its superiority.</p>
 
 <style>
 .column {
@@ -27,7 +25,7 @@
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
-  width: 120px; /* You can adjust this value depending on your layout needs */
+  width: 120px;
   height: auto;
   aspect-ratio: 1/1;
   margin-left: auto;
@@ -40,20 +38,7 @@ img.rounded {
 }
 </style>
 
-<!-- ## Paper
-
-
-
-
-## Idea
- -->
-
-## Video
-
-<!-- <div style="text-align:center">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/8Ocwv2nnSKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div> -->
-
+<h2>Video</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
     <iframe src="//player.bilibili.com/player.html?bvid=BV1ec411F7rx&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
     <iframe src="//player.bilibili.com/player.html?bvid=BV1Nh4y1C7em&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -61,25 +46,11 @@ img.rounded {
     <iframe src="//player.bilibili.com/player.html?bvid=BV1Dx4y1Q7VQ&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
+<h2>Code</h2>
+<p>Coming soon.</p>
 
-## Code
+<h2>Citation</h2>
+<p>Coming soon.</p>
 
-Coming soon.
-
-## Citation
-Coming soon.
-<!-- {% raw %}
-```
-@inproceedings{
-wang2022so2equivariant,
-title={{$\mathrm{SO}(2)$}-Equivariant Reinforcement Learning},
-author={Dian Wang and Robin Walters and Robert Platt},
-booktitle={International Conference on Learning Representations},
-year={2022},
-url={https://openreview.net/forum?id=7F9cOhdvfk_}
-}
-```
-{% endraw %} -->
-
-## Contact
-If you have any questions, please feel free to contact [Xin Yu](https://xjtueryx.github.io) at nlsdeyuxin[at]buaa[dot]edu[dot]cn[dot].
+<h2>Contact</h2>
+<p>If you have any questions, please feel free to contact <a href="https://xjtueryx.github.io">Xin Yu</a> at nlsdeyuxin[at]buaa[dot]edu[dot]cn[dot].</p>

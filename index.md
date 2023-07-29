@@ -1,20 +1,10 @@
-<!-- 
-# ESP: Exploiting Symmetry Prior for Multi-Agent Reinforcement Learning
-### Xin Yu, Rongye Shi*, Pu Feng, Yongkai Tian, Jie Luo, Wenjun Wu
-
-Published at The 26th European Conference on Artificial Intelligence (ECAI 2023)    
-
-[Paper](./pdf/esp.pdf)  
-[Supplementary](./pdf/esp.pdf)   -->
-
-
-
 <div style="background-position: center center; background-image: url('img/titlepic.jpg'); background-size: cover; transform: translate3d(0px, 0px, 0px); color: white; text-align: center;">
     <h1>ESP: Exploiting Symmetry Prior for Multi-Agent Reinforcement Learning</h1>
     <h3>Xin Yu, Rongye Shi*, Pu Feng, Yongkai Tian, Jie Luo, Wenjun Wu</h3>
     <p>European Conference on Artificial Intelligence (ECAI 2023)</p>
     <p><span><a href="./pdf/esp.pdf" style="color: white; text-decoration: underline;">[Paper]</a></span>&nbsp;&nbsp;&nbsp;<span><a href="./pdf/esp.pdf" style="color: white; text-decoration: underline;">[Supplementary]</a></span></p>
 </div>
+
 
 
 **Abstract:** Multi-agent reinforcement learning (MARL) has achieved promising results in recent years. However, most existing reinforcement learning methods require a large amount of data for model training. In addition, data-efficient reinforcement learning requires the construction of strong inductive biases, which are ignored in the current MARL approaches. Inspired by the symmetry phenomenon in multi-agent systems, this paper proposes a framework for exploiting prior knowledge by integrating data augmentation and a well-designed consistency loss into the existing MARL methods. In addition, the proposed framework is model-agnostic and can be applied to most of the current MARL algorithms. Experimental tests on multiple challenging tasks demonstrate the effectiveness of the proposed framework. Moreover, the proposed framework is applied to a physical multi-robot testbed to show its superiority.
